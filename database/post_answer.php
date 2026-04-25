@@ -2,7 +2,7 @@
 // Database connection settings
 $servername = "127.0.0.1";
 $username = "nestforyou_user";
-$password = "Nestforyou@2025";
+$password = "YOUR_DB_PASSWORD";
 $dbname = "nestforyou_root";
 $port = 3306;
 

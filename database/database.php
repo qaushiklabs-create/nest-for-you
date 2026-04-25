@@ -2,7 +2,7 @@
 // Database connection settings
 $servername = "127.0.0.1"; // Database host
 $username = "nestforyou_user"; // Database username
-$password = "Nestforyou@2025"; // Database password
+$password = "YOUR_DB_PASSWORD"; // Database password
 $dbname = "nestforyou_root"; // Database name
 $port = 3306; // Database port (default MySQL port is 3306)
 

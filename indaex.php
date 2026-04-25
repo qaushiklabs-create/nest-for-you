@@ -52,7 +52,7 @@ http_response_code(200);
 $conn = new mysqli(
   "localhost",
   "nestforyou_user",
-  "Nestforyou@2025",
+  "YOUR_DB_PASSWORD",
   "nestforyou_root",
   3306
 );
