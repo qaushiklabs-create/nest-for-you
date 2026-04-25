@@ -1,0 +1,5 @@
+162.241.126.158 - - [06/Oct/2024:07:25:16 -0400] "GET /.well-known/acme-challenge/PQA7DC57-GY2YF05G8IORCAP1COJMQZR HTTP/1.1" 200 64 "-" "Cpanel-HTTP-Client/1.0"
+162.241.126.158 - - [06/Oct/2024:07:25:16 -0400] "GET /.well-known/acme-challenge/JWVCRQTQJMSL3C-GXRE9PE66LUH6CKBB HTTP/1.1" 200 64 "-" "Cpanel-HTTP-Client/1.0"
+162.241.126.158 - - [06/Oct/2024:07:25:16 -0400] "GET /.well-known/acme-challenge/-06WMRIK8TN50ER16RVBI_5BYHAOBFC2 HTTP/1.1" 200 64 "-" "Cpanel-HTTP-Client/1.0"
+162.241.126.158 - - [06/Oct/2024:07:25:16 -0400] "GET /.well-known/acme-challenge/6EXC8EXZ5JY06-MC1SQT2_7K9021-6GT HTTP/1.1" 200 64 "-" "Cpanel-HTTP-Client/1.0"
+162.241.126.158 - - [06/Oct/2024:07:25:16 -0400] "GET /.well-known/acme-challenge/AX85DTWOZ7D2P2RCE2JXJFDINDS4SMNZ HTTP/1.1" 200 64 "-" "Cpanel-HTTP-Client/1.0"

@@ -1,0 +1,58 @@
+{
+  "city": "gurugram",
+  "sectors": {
+    "sector1": {
+      "label": "Sector 1",
+      "apartments": [
+        "aravali-apartment",
+        "imt-view-cghs-apartment",
+        "shivalik-apartment",
+        "the-Imperial-apartment"
+      ]
+    },
+    "sector10": {
+      "label": "Sector 10",
+      "apartments": [
+        "aashrya-chgs-apartment",
+        "ashok-vihar-apartment",
+        "ekta-apartment"
+      ]
+    },
+    "sector102": {
+      "label": "Sector 102",
+      "apartments": [
+        "conscient-heritage-max-apartment",
+        "rof-aalayas-apartment",
+        "suncity-avenue-102-apartment",
+        "suncity-avenue-apartment"
+      ]
+    },
+    "sector103": {
+      "label": "Sector 103",
+      "apartments": [
+        "ansal-housing-highland-park-apartment",
+        "godrej-vrikshya-apartment",
+        "grand-iva-signature-global-apartment",
+        "indiabulls-centrum-park-apartment",
+        "landmark-the-residency-apartment",
+        "mahira-homes-apartment",
+        "oxirich-chintamanis-apartment",
+        "satya-the-hermitage-apartment",
+        "the-residency-apartment"
+      ]
+    },
+    "sector104": {
+      "label": "Sector 104",
+      "apartments": [
+        "hero-homes-apartment",
+        "perfect-zara-aavaas-apartment"
+      ]
+    },
+    "sector106": {
+      "label": "Sector 106",
+      "apartments": [
+        "chd-golf-avenue-ap"
+      ]
+    }
+  }
+}

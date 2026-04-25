@@ -1,0 +1,26 @@
+# Enable rewrite engine
+RewriteEngine On
+
+# -------------------------------------------------
+# Real Estate Agent – Pretty URLs
+# -------------------------------------------------
+
+# 1️⃣ Real Estate Agent + City + Sector
+# Example:
+# /real-estate-agent/gurgaon/sector-1
+RewriteRule ^real-estate-agent/([a-zA-Z\-]+)/sector-([0-9]+)/?$ search-results.php?city=$1&sector=Sector%20$2 [L,QSA,NC]
+
+# 2️⃣ Real Estate Agent + City + Sector + Apartment
+# Example:
+# /real-estate-agent/gurgaon/sector-1/shivalik-apartment
+RewriteRule ^real-estate-agent/([a-zA-Z\-]+)/sector-([0-9]+)/([a-zA-Z0-9\-]+)/?$ search-results.php?city=$1&sector=Sector%20$2&apartment=$3 [L,QSA,NC]
+
+# ----------------------------------------
+# RENT & BUY ROUTES
+# ----------------------------------------
+
+# /gurugram/rent/
+RewriteRule ^([a-zA-Z\-]+)/rent/?$ rent.php?city=$1 [L,QSA,NC]
+
+# /gurugram/buy/
+RewriteRule ^([a-zA-Z\-]+)/buy/?$ buy.php?city=$1 [L,QSA,NC]

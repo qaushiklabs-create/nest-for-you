@@ -1,0 +1,13 @@
+[2026-01-19 16:03:06] POST received: name=Prateek Anand email=luxuryunlocked411@gmail.com phone=07060152229 city=Gurugram sector=sector3 ip=114.31.179.121
+[2026-01-19 16:03:06] INSERT OK (with_sector_with_updated) insert_id=31 db=nestforyou_root
+[2026-01-19 17:58:13] POST received: name=interior-remodeling. email=yii@b.com phone=aa city=Gurugram sector=sector2 ip=223.190.85.179
+[2026-01-19 17:58:13] INSERT OK (with_sector_with_updated) insert_id=32 db=nestforyou_root
+[2026-01-19 19:42:43] POST received: name=interior-remodeling. email=123@gmail.com phone=aa city=Noida sector=sector1 ip=223.190.85.179
+[2026-01-19 19:42:43] INSERT OK (with_sector_with_updated) insert_id=34 db=nestforyou_root
+[2026-01-19 19:44:28] POST received: name=interior-remodeling.php email=123@gmail.com phone=aa city=Delhi sector=sector2 ip=223.190.85.179
+[2026-01-19 19:44:28] INSERT OK (with_sector_with_updated) insert_id=35 db=nestforyou_root
+[2026-01-20 08:41:13] POST received: name=vikram email=vikram@gmail.com phone= city=Gurugram sector=sector1 ip=114.31.183.195
+[2026-01-20 08:41:29] POST received: name=vikram email=vikram@gmail.com phone=7894561235 city=Gurugram sector=sector1 ip=114.31.183.195
+[2026-01-20 08:41:29] INSERT OK (with_sector_with_updated) insert_id=36 db=nestforyou_root
+[2026-01-20 09:37:48] POST received: name=Prateek Anand email=luxuryunlocked411@gmail.com phone=07060152229 city=Gurugram sector=sector1 ip=114.31.183.228
+[2026-01-20 09:37:48] INSERT OK (with_sector_with_updated) insert_id=37 db=nestforyou_root

@@ -1,0 +1,8 @@
+Satya Sir, still getting below error on Helpplz. email: info@helpplz.in
+[2024-10-23 03:04:42] prod.ERROR: Mail sending failed: Connection could not be established with 
+host "ssl://smtpout.secureserver.net:465": stream_socket_client(): Peer certificate CN=`server.kasimpurpowerhouse.com' did not match
+expected CN=`smtpout.secureserver.net' {"data":{"name":"Abhishek Kumar","email":"kaushikabhishek88@gmail.com","phone":"09643809808","vehiclenumber":"HRTTS","question":"xx"},"ip":"223.190.81.173","exception":"[object] (Symfony\\Component\\Mailer\\Exception\\TransportException(code: 0): Connection could not be established with host \"ssl://smtpout.secureserver.net:465\": stream_socket_client():
+Peer certificate CN=`server.kasimpurpowerhouse.com' did not match expected CN=`smtpout.secureserver.net' at /home/helpplz1n/website_root/vendor/symfony/mailer/Transport/Smtp/Stream/SocketStream.php:154)
+[stacktrace]
+For nestforyou, email: getnestforyou@gmail.com need to check the logs.
+Satya sir, kuch ho paega iska?

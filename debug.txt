@@ -1,0 +1,46 @@
+POST HIT
+POST HIT
+DB CONNECTED
+Array
+(
+    [name] => Axar Patel
+    [email] => axar@gmail.com
+    [phone_number] => 9466861033
+    [city] => Gurugram
+    [sector] => Sector 3
+    [apartment] => bharat-residency-apartment
+    [action] => register_agent
+)
+Array
+(
+    [name] => Axar Patel
+    [email] => axar@gmail.com
+    [phone_number] => 9466861033
+    [city] => Gurugram
+    [sector] => Sector 3
+    [apartment] => bharat-residency-apartment
+    [action] => register_agent
+)
+INSERT OK
+Array
+(
+    [name] => Aavesh
+    [email] => aavesh@gmail.com
+    [phone_number] => 9466861032
+    [city] => Gurugram
+    [sector] => Sector 3
+    [apartment] => 
+    [action] => register_agent
+)
+INSERT OK
+Array
+(
+    [name] => Rohit Sharma
+    [email] => rohit@gmail.com
+    [phone_number] => 1234567890
+    [city] => Gurugram
+    [sector] => Sector 3
+    [apartment] => bharat-residency-apartment
+    [action] => register_agent
+)
+INSERT OK

@@ -1,0 +1,6 @@
+[26-Sep-2024 05:10:21 UTC] PHP Warning:  include(common file/popup.php): Failed to open stream: No such file or directory in /home/propperty/public_html/common file/header.php on line 46
+[26-Sep-2024 05:10:21 UTC] PHP Warning:  include(): Failed opening 'common file/popup.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/propperty/public_html/common file/header.php on line 46
+[26-Sep-2024 05:13:07 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/propperty/public_html/common file/header.php on line 2
+[26-Sep-2024 05:13:17 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/propperty/public_html/common file/header.php on line 2
+[26-Sep-2024 05:13:49 UTC] PHP Warning:  include(common file/popup.php): Failed to open stream: No such file or directory in /home/propperty/public_html/common file/header.php on line 2
+[26-Sep-2024 05:13:49 UTC] PHP Warning:  include(): Failed opening 'common file/popup.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/propperty/public_html/common file/header.php on line 2

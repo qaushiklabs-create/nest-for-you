@@ -1,0 +1,2031 @@
+[13-Dec-2024 07:38:20 UTC] PHP Warning:  Undefined variable $conn in /home/propperty/public_html/database/forum.php on line 48
+[13-Dec-2024 07:38:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/propperty/public_html/database/forum.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 48
+[13-Dec-2024 07:38:22 UTC] PHP Warning:  Undefined variable $conn in /home/propperty/public_html/database/forum.php on line 48
+[13-Dec-2024 07:38:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/propperty/public_html/database/forum.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 48
+[13-Dec-2024 13:25:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'propperty_Forum'@'localhost' (using password: YES) in /home/propperty/public_html/database/store_data.php:11
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(11): mysqli->__construct('localhost', 'propperty_Forum', 'Propperty_1!', 'forum')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 11
+[13-Dec-2024 13:27:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'propperty_Forum'@'localhost' (using password: YES) in /home/propperty/public_html/database/store_data.php:11
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(11): mysqli->__construct('localhost', 'propperty_Forum', 'Propperty_1!', 'forum')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 11
+[13-Dec-2024 13:27:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'propperty_Forum'@'localhost' (using password: YES) in /home/propperty/public_html/database/store_data.php:11
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(11): mysqli->__construct('localhost', 'propperty_Forum', 'Helpplz1!', 'forum')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 11
+[13-Dec-2024 13:28:50 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for localhost3306 failed: Name or service not known in /home/propperty/public_html/database/store_data.php on line 11
+[13-Dec-2024 13:28:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for localhost3306 failed: Name or service not known in /home/propperty/public_html/database/store_data.php:11
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(11): mysqli->__construct('localhost3306', 'propperty_Forum', 'Helpplz1!', 'forum')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 11
+[13-Dec-2024 13:30:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'propperty_Forum'@'localhost' (using password: YES) in /home/propperty/public_html/database/store_data.php:11
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(11): mysqli->__construct('localhost:3306', 'propperty_Forum', 'Helpplz1!', 'forum')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 11
+[13-Dec-2024 13:38:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'propperty_root'@'localhost' to database 'forum' in /home/propperty/public_html/database/store_data.php:11
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(11): mysqli->__construct('localhost:3306', 'propperty_root', 'Helpplz1!', 'forum')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 11
+[13-Dec-2024 13:46:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'propperty_root'@'localhost' to database 'forum' in /home/propperty/public_html/database/store_data.php:12
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(12): mysqli->__construct('127.0.0.1', 'propperty_root', 'Helpplz1!', 'forum')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 12
+[13-Dec-2024 13:49:38 UTC] PHP Warning:  Undefined array key "phone_number" in /home/propperty/public_html/database/store_data.php on line 22
+[13-Dec-2024 13:49:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'propperty_root.messages' doesn't exist in /home/propperty/public_html/database/store_data.php:35
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(35): mysqli->query('INSERT INTO mes...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 35
+[13-Dec-2024 13:51:25 UTC] PHP Warning:  Undefined array key "phone_number" in /home/propperty/public_html/database/store_data.php on line 22
+[13-Dec-2024 13:52:22 UTC] PHP Warning:  Undefined array key "phone_number" in /home/propperty/public_html/database/store_data.php on line 22
+[13-Dec-2024 13:58:10 UTC] PHP Warning:  Undefined variable $stmt in /home/propperty/public_html/database/store_data.php on line 42
+[13-Dec-2024 13:58:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/propperty/public_html/database/store_data.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 42
+[13-Dec-2024 13:58:49 UTC] PHP Warning:  Undefined variable $stmt in /home/propperty/public_html/database/store_data.php on line 42
+[13-Dec-2024 13:58:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/propperty/public_html/database/store_data.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 42
+[13-Dec-2024 13:59:42 UTC] PHP Warning:  Undefined variable $stmt in /home/propperty/public_html/database/store_data.php on line 42
+[13-Dec-2024 13:59:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/propperty/public_html/database/store_data.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 42
+[13-Dec-2024 14:15:18 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:15:18 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=gh, message=gh, ip=36.50.197.239
+[13-Dec-2024 14:15:18 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:22:36 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:22:36 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=fg, message=fg, ip=36.50.197.239
+[13-Dec-2024 14:22:36 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:26:04 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:26:04 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=df, message=df, ip=36.50.197.239
+[13-Dec-2024 14:26:04 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:26:56 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:26:56 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=yu, message=yu, ip=36.50.197.239
+[13-Dec-2024 14:26:56 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:27:33 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:27:33 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=t, message=t, ip=36.50.197.239
+[13-Dec-2024 14:27:33 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:28:56 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:28:56 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=e, message=e, ip=36.50.197.239
+[13-Dec-2024 14:28:56 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:36:19 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:36:19 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=s, message=s, ip=36.50.197.239
+[13-Dec-2024 14:36:19 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:42:19 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:42:19 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=y, message=y, ip=36.50.197.239
+[13-Dec-2024 14:42:19 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:42:19 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:42:19 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=y, message=y, ip=36.50.197.239
+[13-Dec-2024 14:42:19 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:43:15 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:43:15 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=k, message=ol, ip=36.50.197.239
+[13-Dec-2024 14:43:15 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:43:15 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:43:15 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=k, message=ol, ip=36.50.197.239
+[13-Dec-2024 14:43:15 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:44:39 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:44:39 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=rt, message=rt, ip=36.50.197.239
+[13-Dec-2024 14:44:39 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:44:39 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=rt, message=rt, ip=36.50.197.239
+[13-Dec-2024 14:44:39 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:44:39 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:50:00 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:50:00 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=s, message=s, ip=36.50.197.239
+[13-Dec-2024 14:50:00 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:50:16 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:50:16 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=as, message=as, ip=36.50.197.239
+[13-Dec-2024 14:50:16 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:50:33 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:50:33 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=y, message=y, ip=36.50.197.239
+[13-Dec-2024 14:50:33 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:50:51 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:50:51 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:50:51 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015y, subject=y, message=y, ip=36.50.197.239
+[13-Dec-2024 14:50:51 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015y, subject=y, message=y, ip=36.50.197.239
+[13-Dec-2024 14:50:51 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:50:51 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:51:59 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:51:59 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=we, message=we, ip=36.50.197.239
+[13-Dec-2024 14:51:59 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:51:59 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:51:59 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=we, message=we, ip=36.50.197.239
+[13-Dec-2024 14:51:59 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:54:52 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:54:52 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=er, message=er, ip=36.50.197.239
+[13-Dec-2024 14:54:52 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:54:52 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:54:52 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=er, message=er, ip=36.50.197.239
+[13-Dec-2024 14:54:52 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:56:27 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:56:27 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=sd, message=sd, ip=36.50.197.239
+[13-Dec-2024 14:56:27 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:58:38 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:58:38 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=ty, message=ty, ip=36.50.197.239
+[13-Dec-2024 14:58:38 UTC] Query executed successfully: 1 rows affected.
+[13-Dec-2024 14:59:24 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[13-Dec-2024 14:59:24 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=yu, message=yu, ip=36.50.197.239
+[13-Dec-2024 14:59:24 UTC] Query executed successfully: 1 rows affected.
+[14-Dec-2024 09:18:07 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[14-Dec-2024 09:18:07 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=j, message=j, ip=36.50.197.130
+[14-Dec-2024 09:18:07 UTC] Query executed successfully: 1 rows affected.
+[14-Dec-2024 09:23:41 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 68
+[14-Dec-2024 09:23:41 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 68
+[14-Dec-2024 09:24:27 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 67
+[14-Dec-2024 09:24:27 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 67
+[14-Dec-2024 09:24:53 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 67
+[14-Dec-2024 09:24:53 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 67
+[14-Dec-2024 09:29:12 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[14-Dec-2024 09:29:12 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=test, message=url= https://propperty.in/database/forum.php, ip=36.50.197.130
+[14-Dec-2024 09:29:12 UTC] Query executed successfully: 1 rows affected.
+[14-Dec-2024 09:32:00 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[14-Dec-2024 09:32:00 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=created_at , message=checking
+, ip=36.50.197.130
+[14-Dec-2024 09:32:00 UTC] Query executed successfully: 1 rows affected.
+[14-Dec-2024 09:55:30 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[14-Dec-2024 09:55:30 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=gurgaon, message=can i get property in 1cr, ip=36.50.197.130
+[14-Dec-2024 09:55:30 UTC] Query executed successfully: 1 rows affected.
+[14-Dec-2024 10:01:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum_answer.php:65
+Stack trace:
+#0 /home/propperty/public_html/database/forum_answer.php(65): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum_answer.php on line 65
+[14-Dec-2024 10:03:49 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[14-Dec-2024 10:03:49 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=test, message=data displaying on page, ip=36.50.197.130
+[14-Dec-2024 10:03:49 UTC] Query executed successfully: 1 rows affected.
+[14-Dec-2024 10:24:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:19
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(19): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 19
+[14-Dec-2024 10:24:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:19
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(19): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 19
+[14-Dec-2024 10:25:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:47
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(47): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 47
+[14-Dec-2024 10:27:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:47
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(47): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 47
+[14-Dec-2024 10:27:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:47
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(47): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 47
+[14-Dec-2024 10:32:36 UTC] Query executed successfully: 1 rows affected. Forum ID: 0
+[14-Dec-2024 10:32:36 UTC] Successfully inserted into forum_answer with question_id: 0
+[14-Dec-2024 10:35:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/propperty/public_html/database/store_data.php:60
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(60): mysqli->query('SELECT created_...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 60
+[14-Dec-2024 10:35:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/propperty/public_html/database/store_data.php:60
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(60): mysqli->query('SELECT created_...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 60
+[14-Dec-2024 10:35:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/propperty/public_html/database/store_data.php:60
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(60): mysqli->query('SELECT created_...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 60
+[14-Dec-2024 10:35:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/propperty/public_html/database/store_data.php:60
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(60): mysqli->query('SELECT created_...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 60
+[14-Dec-2024 10:35:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/propperty/public_html/database/store_data.php:60
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(60): mysqli->query('SELECT created_...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 60
+[14-Dec-2024 10:35:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/propperty/public_html/database/store_data.php:60
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(60): mysqli->query('SELECT created_...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 60
+[14-Dec-2024 10:35:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/propperty/public_html/database/store_data.php:60
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(60): mysqli->query('SELECT created_...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 60
+[14-Dec-2024 10:37:49 UTC] PHP Warning:  Undefined variable $created_at in /home/propperty/public_html/database/store_data.php on line 60
+[14-Dec-2024 10:37:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/propperty/public_html/database/store_data.php:60
+Stack trace:
+#0 /home/propperty/public_html/database/store_data.php(60): mysqli->query('SELECT created_...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/store_data.php on line 60
+[14-Dec-2024 10:38:50 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[14-Dec-2024 10:38:50 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=test, message=display all data, ip=36.50.197.130
+[14-Dec-2024 10:38:50 UTC] Query executed successfully: 1 rows affected.
+[15-Dec-2024 03:32:54 UTC] Prepared statement: mysqli_stmt Object
+(
+    [affected_rows] => 0
+    [insert_id] => 0
+    [num_rows] => 0
+    [param_count] => 6
+    [field_count] => 0
+    [errno] => 0
+    [error] => 
+    [error_list] => Array
+        (
+        )
+
+    [sqlstate] => 00000
+    [id] => 1
+)
+
+[15-Dec-2024 03:32:54 UTC] Binding parameters: name=mohit, email=mohitra8220@gmail.com, phone_number=9813452015, subject=test, message=test1, ip=36.50.197.190
+[15-Dec-2024 03:32:54 UTC] Query executed successfully: 1 rows affected.
+[14-Dec-2024 23:04:51 America/New_York] Query executed successfully: 1 rows affected.
+[15-Dec-2024 09:37:50 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Dec-2024 09:39:03 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Dec-2024 04:24:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:175
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(175): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 175
+[15-Dec-2024 10:29:18 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Dec-2024 05:06:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'f.id' in 'field list' in /home/propperty/public_html/database/forum.php:203
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(203): mysqli->query('\r\n             ...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 203
+[15-Dec-2024 05:33:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'propperty_root.answers' doesn't exist in /home/propperty/public_html/database/forum.php:205
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(205): mysqli->query('SELECT f.id as ...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 205
+[15-Dec-2024 05:50:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:213
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(213): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 213
+[15-Dec-2024 05:52:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:213
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(213): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 213
+[15-Dec-2024 05:54:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:213
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(213): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 213
+[15-Dec-2024 05:55:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:213
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(213): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 213
+[15-Dec-2024 05:56:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:213
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(213): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 213
+[15-Dec-2024 05:56:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:213
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(213): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 213
+[15-Dec-2024 05:59:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:208
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(208): mysqli->query('SELECT name, me...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 208
+[15-Dec-2024 06:04:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:208
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(208): mysqli->query('SELECT name, me...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 208
+[15-Dec-2024 06:10:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'forum.id' in 'field list' in /home/propperty/public_html/database/forum.php:202
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(202): mysqli->query('SELECT forum.id...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 202
+[15-Dec-2024 12:18:24 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Dec-2024 12:18:59 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Dec-2024 12:23:18 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Dec-2024 06:57:57 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 145
+[15-Dec-2024 13:06:17 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Dec-2024 07:42:29 UTC] PHP Warning:  Undefined variable $forum_id in /home/propperty/public_html/database/forum.php on line 256
+[15-Dec-2024 07:42:29 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/propperty/public_html/database/forum.php:257
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(257): mysqli->query('SELECT * FROM f...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 257
+[15-Dec-2024 07:43:08 UTC] PHP Warning:  Undefined variable $forum_id in /home/propperty/public_html/database/forum.php on line 256
+[15-Dec-2024 07:43:08 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/propperty/public_html/database/forum.php:257
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(257): mysqli->query('SELECT * FROM f...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 257
+[15-Dec-2024 07:43:09 UTC] PHP Warning:  Undefined variable $forum_id in /home/propperty/public_html/database/forum.php on line 256
+[15-Dec-2024 07:43:09 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/propperty/public_html/database/forum.php:257
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(257): mysqli->query('SELECT * FROM f...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 257
+[15-Dec-2024 07:48:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:145
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(145): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 145
+[15-Dec-2024 07:53:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:222
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(222): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 222
+[15-Dec-2024 08:00:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'likes' in 'field list' in /home/propperty/public_html/database/forum.php:223
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(223): mysqli->query('SELECT name, an...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 223
+[15-Dec-2024 08:00:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'likes' in 'field list' in /home/propperty/public_html/database/forum.php:223
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(223): mysqli->query('SELECT name, an...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 223
+[15-Dec-2024 08:00:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'likes' in 'field list' in /home/propperty/public_html/database/forum.php:223
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(223): mysqli->query('SELECT name, an...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 223
+[15-Dec-2024 08:00:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'likes' in 'field list' in /home/propperty/public_html/database/forum.php:223
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(223): mysqli->query('SELECT name, an...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 223
+[15-Dec-2024 08:05:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '13:06:17' at line 1 in /home/propperty/public_html/database/forum.php:216
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(216): mysqli->query('SELECT answer, ...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 216
+[15-Dec-2024 08:05:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '13:06:17' at line 1 in /home/propperty/public_html/database/forum.php:216
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(216): mysqli->query('SELECT answer, ...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 216
+[15-Dec-2024 08:10:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'propperty_user'@'localhost' to database 'propperty_forum' in /home/propperty/public_html/database/forum.php:191
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(191): mysqli->__construct('127.0.0.1', 'propperty_user', 'Helpplz1!', 'propperty_forum')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 191
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 306
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 308
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 309
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 310
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 311
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 306
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 308
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 309
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 310
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 311
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 306
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 308
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 309
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 310
+[15-Dec-2024 08:16:18 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 311
+[15-Dec-2024 08:23:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/propperty/public_html/database/forum.php:227
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(227): mysqli->__construct('localhost', 'root', '', 'forum')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 227
+[15-Dec-2024 08:23:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/propperty/public_html/database/forum.php:227
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(227): mysqli->__construct('localhost', 'root', '', 'forum')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 227
+[15-Dec-2024 13:54:06 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Dec-2024 13:54:12 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Dec-2024 13:54:19 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Dec-2024 13:54:24 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Dec-2024 09:47:49 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 288
+[15-Dec-2024 09:47:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/propperty/public_html/database/forum.php:290
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(290): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 290
+[15-Dec-2024 09:47:54 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 288
+[15-Dec-2024 09:47:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/propperty/public_html/database/forum.php:290
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(290): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 290
+[15-Dec-2024 09:50:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'propperty_root.answer_likes' doesn't exist in /home/propperty/public_html/database/forum.php:289
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(289): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 289
+[15-Dec-2024 09:51:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'answer_id' in 'where clause' in /home/propperty/public_html/database/forum.php:289
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(289): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 289
+[15-Dec-2024 10:03:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:277
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(277): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 277
+[15-Dec-2024 10:03:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:299
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(299): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 299
+[15-Dec-2024 10:05:24 UTC] PHP Warning:  Undefined array key "created_at" in /home/propperty/public_html/database/forum.php on line 306
+[15-Dec-2024 10:05:24 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 306
+[15-Dec-2024 10:05:24 UTC] PHP Warning:  Undefined array key "name" in /home/propperty/public_html/database/forum.php on line 310
+[15-Dec-2024 10:05:24 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 310
+[15-Dec-2024 10:05:24 UTC] PHP Warning:  Undefined array key "answer" in /home/propperty/public_html/database/forum.php on line 311
+[15-Dec-2024 10:05:24 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 311
+[15-Dec-2024 10:05:24 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 316
+[15-Dec-2024 10:05:24 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 317
+[15-Dec-2024 10:05:24 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 317
+[15-Dec-2024 10:07:04 UTC] PHP Warning:  Undefined array key "created_at" in /home/propperty/public_html/database/forum.php on line 306
+[15-Dec-2024 10:07:04 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 306
+[15-Dec-2024 10:07:04 UTC] PHP Warning:  Undefined array key "name" in /home/propperty/public_html/database/forum.php on line 310
+[15-Dec-2024 10:07:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 310
+[15-Dec-2024 10:07:04 UTC] PHP Warning:  Undefined array key "answer" in /home/propperty/public_html/database/forum.php on line 311
+[15-Dec-2024 10:07:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 311
+[15-Dec-2024 10:07:04 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 316
+[15-Dec-2024 10:07:04 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 317
+[15-Dec-2024 10:07:04 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 317
+[15-Dec-2024 10:08:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:270
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(270): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 270
+[15-Dec-2024 10:08:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:270
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(270): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 270
+[15-Dec-2024 10:08:55 UTC] PHP Warning:  Undefined array key "created_at" in /home/propperty/public_html/database/forum.php on line 306
+[15-Dec-2024 10:08:55 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 306
+[15-Dec-2024 10:08:55 UTC] PHP Warning:  Undefined array key "name" in /home/propperty/public_html/database/forum.php on line 310
+[15-Dec-2024 10:08:55 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 310
+[15-Dec-2024 10:08:55 UTC] PHP Warning:  Undefined array key "answer" in /home/propperty/public_html/database/forum.php on line 311
+[15-Dec-2024 10:08:55 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 311
+[15-Dec-2024 10:08:55 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 316
+[15-Dec-2024 10:08:55 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 317
+[15-Dec-2024 10:08:55 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 317
+[15-Dec-2024 10:10:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:298
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(298): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 298
+[15-Dec-2024 10:11:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:298
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(298): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 298
+[15-Dec-2024 10:11:31 UTC] PHP Warning:  Undefined array key "created_at" in /home/propperty/public_html/database/forum.php on line 305
+[15-Dec-2024 10:11:31 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 305
+[15-Dec-2024 10:11:31 UTC] PHP Warning:  Undefined array key "name" in /home/propperty/public_html/database/forum.php on line 310
+[15-Dec-2024 10:11:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 310
+[15-Dec-2024 10:11:31 UTC] PHP Warning:  Undefined array key "answer" in /home/propperty/public_html/database/forum.php on line 311
+[15-Dec-2024 10:11:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 311
+[15-Dec-2024 10:11:31 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 316
+[15-Dec-2024 10:11:31 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 317
+[15-Dec-2024 10:11:31 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 317
+[15-Dec-2024 10:15:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:298
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(298): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 298
+[15-Dec-2024 10:15:36 UTC] PHP Warning:  Undefined array key "created_at" in /home/propperty/public_html/database/forum.php on line 305
+[15-Dec-2024 10:15:36 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 305
+[15-Dec-2024 10:15:36 UTC] PHP Warning:  Undefined array key "name" in /home/propperty/public_html/database/forum.php on line 312
+[15-Dec-2024 10:15:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 312
+[15-Dec-2024 10:15:36 UTC] PHP Warning:  Undefined array key "answer" in /home/propperty/public_html/database/forum.php on line 313
+[15-Dec-2024 10:15:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 313
+[15-Dec-2024 10:15:36 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 318
+[15-Dec-2024 10:15:36 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 319
+[15-Dec-2024 10:15:36 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 319
+[15-Dec-2024 10:17:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:299
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(299): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 299
+[15-Dec-2024 10:22:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:269
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(269): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 269
+[15-Dec-2024 10:34:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:277
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(277): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 277
+[15-Dec-2024 10:35:17 UTC] PHP Warning:  Undefined array key "created_at" in /home/propperty/public_html/database/forum.php on line 284
+[15-Dec-2024 10:35:17 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 284
+[15-Dec-2024 10:35:17 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 285
+[15-Dec-2024 10:35:17 UTC] PHP Warning:  Undefined array key "name" in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 10:35:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 10:35:17 UTC] PHP Warning:  Undefined array key "answer" in /home/propperty/public_html/database/forum.php on line 292
+[15-Dec-2024 10:35:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 292
+[15-Dec-2024 10:35:51 UTC] PHP Warning:  Undefined array key "question_id" in /home/propperty/public_html/database/forum.php on line 284
+[15-Dec-2024 10:35:51 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 284
+[15-Dec-2024 10:35:51 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 285
+[15-Dec-2024 10:35:51 UTC] PHP Warning:  Undefined array key "name" in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 10:35:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 10:35:51 UTC] PHP Warning:  Undefined array key "answer" in /home/propperty/public_html/database/forum.php on line 292
+[15-Dec-2024 10:35:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 292
+[15-Dec-2024 10:37:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/propperty/public_html/database/forum.php:248
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(248): mysqli->query('SELECT id, name...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 248
+[15-Dec-2024 11:05:16 UTC] PHP Warning:  Undefined array key "created_at" in /home/propperty/public_html/database/forum.php on line 284
+[15-Dec-2024 11:05:16 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 284
+[15-Dec-2024 11:05:16 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 285
+[15-Dec-2024 11:05:16 UTC] PHP Warning:  Undefined array key "name" in /home/propperty/public_html/database/forum.php on line 290
+[15-Dec-2024 11:05:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 290
+[15-Dec-2024 11:05:16 UTC] PHP Warning:  Undefined array key "answer" in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 11:05:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 11:05:16 UTC] PHP Warning:  Undefined array key "created_at" in /home/propperty/public_html/database/forum.php on line 284
+[15-Dec-2024 11:05:16 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 284
+[15-Dec-2024 11:05:16 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 285
+[15-Dec-2024 11:05:16 UTC] PHP Warning:  Undefined array key "name" in /home/propperty/public_html/database/forum.php on line 290
+[15-Dec-2024 11:05:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 290
+[15-Dec-2024 11:05:16 UTC] PHP Warning:  Undefined array key "answer" in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 11:05:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 11:09:34 UTC] PHP Warning:  Undefined array key "created_at" in /home/propperty/public_html/database/forum.php on line 284
+[15-Dec-2024 11:09:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 284
+[15-Dec-2024 11:09:34 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 285
+[15-Dec-2024 11:09:34 UTC] PHP Warning:  Undefined array key "name" in /home/propperty/public_html/database/forum.php on line 290
+[15-Dec-2024 11:09:34 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 290
+[15-Dec-2024 11:09:34 UTC] PHP Warning:  Undefined array key "answer" in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 11:09:34 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 11:09:34 UTC] PHP Warning:  Undefined array key "created_at" in /home/propperty/public_html/database/forum.php on line 284
+[15-Dec-2024 11:09:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 284
+[15-Dec-2024 11:09:34 UTC] PHP Warning:  Undefined array key "id" in /home/propperty/public_html/database/forum.php on line 285
+[15-Dec-2024 11:09:34 UTC] PHP Warning:  Undefined array key "name" in /home/propperty/public_html/database/forum.php on line 290
+[15-Dec-2024 11:09:34 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 290
+[15-Dec-2024 11:09:34 UTC] PHP Warning:  Undefined array key "answer" in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 11:09:34 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 11:19:09 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 11:19:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 11:19:09 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:19:09 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 11:19:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 291
+[15-Dec-2024 11:19:09 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:22:18 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:22:18 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:22:18 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 297
+[15-Dec-2024 11:22:18 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:22:18 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:22:18 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 297
+[15-Dec-2024 11:27:33 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:27:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:27:33 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 297
+[15-Dec-2024 11:27:33 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:27:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:27:33 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 297
+[15-Dec-2024 11:28:31 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:28:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:28:31 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 297
+[15-Dec-2024 11:28:31 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:28:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:28:31 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 297
+[15-Dec-2024 11:29:56 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:29:56 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:29:56 UTC] PHP Warning:  Array to string conversion in /home/propperty/public_html/database/forum.php on line 297
+[15-Dec-2024 11:29:56 UTC] PHP Warning:  Undefined array key "like_count" in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:29:56 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/propperty/public_html/database/forum.php on line 293
+[15-Dec-2024 11:29:56 UTC] PHP Warning:  Array to string conversion in /home/propperty/public_html/database/forum.php on line 297
+[15-Dec-2024 11:31:20 UTC] PHP Warning:  Array to string conversion in /home/propperty/public_html/database/forum.php on line 297
+[15-Dec-2024 11:31:20 UTC] PHP Warning:  Array to string conversion in /home/propperty/public_html/database/forum.php on line 297
+[15-Dec-2024 17:09:57 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Dec-2024 12:22:49 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/propperty/public_html/database/forum.php on line 298
+[16-Dec-2024 01:12:04 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Dec-2024 01:12:06 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Dec-2024 01:12:07 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Dec-2024 01:12:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Dec-2024 01:12:10 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Dec-2024 01:12:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Dec-2024 01:12:13 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Dec-2024 01:12:14 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Dec-2024 01:12:16 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Dec-2024 01:12:17 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Dec-2024 07:20:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'propperty_root.forum_data' doesn't exist in /home/propperty/public_html/database/forum.php:250
+Stack trace:
+#0 /home/propperty/public_html/database/forum.php(250): mysqli->query('SELECT * FROM f...')
+#1 {main}
+  thrown in /home/propperty/public_html/database/forum.php on line 250
+[17-Dec-2024 01:10:55 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[17-Dec-2024 19:12:03 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[17-Dec-2024 23:19:15 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[18-Dec-2024 15:10:15 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 15:16:02 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 15:26:51 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 15:27:46 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 15:29:25 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 15:34:47 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 15:35:12 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 15:38:18 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 15:42:20 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 15:42:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 15:43:06 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 15:44:59 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 15:55:33 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 16:09:50 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 16:16:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 22:33:47 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 22:33:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 22:33:56 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 22:33:57 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 22:33:59 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 22:34:00 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 22:34:02 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 22:34:04 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 22:34:05 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Dec-2024 22:34:06 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Dec-2024 10:38:34 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Dec-2024 10:39:18 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Dec-2024 10:47:24 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Dec-2024 10:48:45 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Dec-2024 11:08:16 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Dec-2024 11:25:34 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Dec-2024 11:25:35 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Dec-2024 15:33:58 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-Dec-2024 14:29:37 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-Dec-2024 14:30:06 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Dec-2024 04:59:02 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Dec-2024 15:55:02 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Dec-2024 16:14:38 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Dec-2024 23:48:46 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Dec-2024 23:48:47 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Dec-2024 23:48:48 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Dec-2024 23:48:49 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Dec-2024 23:48:51 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Dec-2024 23:48:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Dec-2024 23:48:53 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Dec-2024 23:48:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Dec-2024 23:48:55 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Dec-2024 23:48:56 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Dec-2024 17:32:18 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Dec-2024 22:25:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-Dec-2024 11:33:59 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-Dec-2024 13:42:27 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-Dec-2024 13:42:27 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-Dec-2024 15:16:18 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-Dec-2024 19:16:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[30-Dec-2024 21:09:51 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Dec-2024 04:52:35 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Dec-2024 04:52:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Dec-2024 04:52:57 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Dec-2024 04:53:13 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Dec-2024 04:53:14 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Dec-2024 04:53:32 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Dec-2024 04:53:48 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Dec-2024 04:53:50 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Dec-2024 04:53:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Dec-2024 20:50:22 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[01-Jan-2025 02:35:45 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[01-Jan-2025 17:20:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jan-2025 14:45:44 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jan-2025 18:59:27 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[03-Jan-2025 09:36:27 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-Jan-2025 15:26:04 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-Jan-2025 17:33:56 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Jan-2025 04:25:45 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Jan-2025 19:29:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jan-2025 01:06:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jan-2025 01:06:42 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jan-2025 01:06:44 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jan-2025 01:06:46 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jan-2025 01:06:47 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jan-2025 01:06:50 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jan-2025 01:06:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jan-2025 01:06:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jan-2025 01:06:56 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jan-2025 01:06:57 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jan-2025 04:06:13 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Jan-2025 07:10:15 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[08-Jan-2025 07:55:44 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[09-Jan-2025 13:55:16 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[10-Jan-2025 01:11:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[10-Jan-2025 12:44:48 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jan-2025 14:16:27 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jan-2025 23:48:02 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jan-2025 23:48:03 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jan-2025 23:48:04 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jan-2025 23:48:05 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jan-2025 23:48:06 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jan-2025 23:48:07 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jan-2025 23:48:08 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jan-2025 23:48:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jan-2025 23:48:10 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jan-2025 23:48:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[12-Jan-2025 01:38:04 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[12-Jan-2025 17:57:50 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[13-Jan-2025 05:07:19 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[13-Jan-2025 16:35:58 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[13-Jan-2025 20:35:35 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[14-Jan-2025 11:00:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[14-Jan-2025 14:15:02 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Jan-2025 13:30:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Jan-2025 17:14:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Jan-2025 22:01:22 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Jan-2025 01:34:33 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Jan-2025 17:28:39 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[17-Jan-2025 17:56:17 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[18-Jan-2025 16:05:37 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Jan-2025 05:58:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Jan-2025 05:58:37 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Jan-2025 05:58:39 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Jan-2025 05:58:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Jan-2025 05:58:42 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Jan-2025 05:58:43 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Jan-2025 05:58:45 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Jan-2025 05:58:46 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Jan-2025 05:58:48 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Jan-2025 05:58:50 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Jan-2025 18:45:32 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Jan-2025 23:51:16 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Jan-2025 10:10:51 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Jan-2025 14:00:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Jan-2025 23:34:03 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jan-2025 00:59:50 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jan-2025 00:59:51 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jan-2025 00:59:53 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jan-2025 00:59:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jan-2025 00:59:55 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jan-2025 00:59:56 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jan-2025 00:59:58 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jan-2025 00:59:59 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jan-2025 01:00:00 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jan-2025 01:00:01 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jan-2025 14:12:07 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jan-2025 18:41:59 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jan-2025 23:13:04 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jan-2025 03:57:21 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jan-2025 14:05:32 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jan-2025 17:24:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jan-2025 17:24:12 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jan-2025 17:24:13 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jan-2025 17:24:14 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jan-2025 17:24:15 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jan-2025 17:24:16 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jan-2025 17:24:17 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jan-2025 17:24:18 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jan-2025 17:24:19 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jan-2025 17:24:20 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Jan-2025 00:43:20 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Jan-2025 09:55:58 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Jan-2025 13:40:39 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Jan-2025 06:57:05 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Jan-2025 06:57:07 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Jan-2025 06:57:08 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Jan-2025 06:57:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Jan-2025 06:57:10 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Jan-2025 06:57:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Jan-2025 06:57:13 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Jan-2025 06:57:14 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Jan-2025 06:57:15 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Jan-2025 06:57:16 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-Jan-2025 13:47:43 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-Jan-2025 23:26:42 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-Jan-2025 23:43:42 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jan-2025 06:57:34 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jan-2025 06:57:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jan-2025 06:57:38 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jan-2025 06:57:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jan-2025 06:57:44 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jan-2025 06:57:46 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jan-2025 06:57:49 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jan-2025 06:57:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jan-2025 06:57:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jan-2025 06:57:56 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jan-2025 18:19:48 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jan-2025 23:40:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[30-Jan-2025 15:01:12 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Jan-2025 15:50:18 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Jan-2025 20:24:57 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[03-Feb-2025 15:37:07 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-Feb-2025 20:13:30 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Feb-2025 15:56:32 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Feb-2025 01:52:25 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Feb-2025 00:03:07 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Feb-2025 00:03:08 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Feb-2025 00:03:08 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Feb-2025 00:03:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Feb-2025 00:03:10 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Feb-2025 00:03:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Feb-2025 00:03:12 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Feb-2025 00:03:12 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Feb-2025 00:03:13 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Feb-2025 00:03:14 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Feb-2025 15:48:04 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Feb-2025 17:01:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[08-Feb-2025 03:28:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[08-Feb-2025 22:11:58 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[09-Feb-2025 19:53:07 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[10-Feb-2025 16:18:01 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[12-Feb-2025 14:51:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[13-Feb-2025 08:15:49 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[13-Feb-2025 23:26:27 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Feb-2025 08:13:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Feb-2025 14:00:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Feb-2025 14:38:04 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Feb-2025 06:35:57 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Feb-2025 11:13:19 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Feb-2025 11:13:19 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Feb-2025 14:28:33 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[18-Feb-2025 00:24:03 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[18-Feb-2025 11:42:38 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Feb-2025 13:14:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Feb-2025 14:21:22 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Feb-2025 03:59:04 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Feb-2025 14:41:43 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Feb-2025 17:10:28 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-Feb-2025 13:45:30 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-Feb-2025 14:22:01 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-Feb-2025 14:22:01 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Feb-2025 22:23:22 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Feb-2025 15:05:47 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 00:45:51 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 08:30:47 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:04:49 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:04:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:04:59 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:05:01 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:05:14 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:05:15 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:05:17 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:05:19 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:05:21 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:05:23 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:05:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:05:38 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:05:39 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Feb-2025 15:05:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-Feb-2025 09:35:35 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[01-Mar-2025 19:37:35 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Mar-2025 19:21:58 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[03-Mar-2025 01:39:58 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-Mar-2025 12:18:47 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Mar-2025 01:45:21 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Mar-2025 21:47:08 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Mar-2025 13:24:26 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Mar-2025 13:05:46 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Mar-2025 22:26:53 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[08-Mar-2025 12:34:25 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[09-Mar-2025 18:38:04 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[09-Mar-2025 21:20:22 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[10-Mar-2025 01:40:33 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[10-Mar-2025 01:40:33 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Mar-2025 10:11:39 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Mar-2025 22:13:08 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Mar-2025 05:12:30 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Mar-2025 01:55:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Mar-2025 03:44:28 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Mar-2025 05:23:44 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Mar-2025 15:08:53 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Mar-2025 20:06:28 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[17-Mar-2025 23:04:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[18-Mar-2025 00:53:35 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Mar-2025 04:51:57 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Mar-2025 16:34:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Mar-2025 16:34:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Mar-2025 09:51:30 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Mar-2025 22:45:33 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-Mar-2025 01:34:23 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Mar-2025 06:40:26 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Mar-2025 21:58:10 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Mar-2025 22:59:13 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Mar-2025 08:47:50 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Mar-2025 23:30:44 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-Mar-2025 04:59:49 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Mar-2025 04:42:48 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Mar-2025 09:08:16 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[30-Mar-2025 22:30:29 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Mar-2025 12:42:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Mar-2025 20:34:17 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-Mar-2025 21:23:08 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Apr-2025 08:49:56 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Apr-2025 17:50:05 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[03-Apr-2025 05:09:48 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-Apr-2025 03:43:10 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-Apr-2025 15:47:46 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Apr-2025 22:40:53 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Apr-2025 03:42:39 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Apr-2025 06:18:08 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Apr-2025 09:02:14 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[09-Apr-2025 00:18:27 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[09-Apr-2025 04:18:34 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[09-Apr-2025 10:38:35 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[10-Apr-2025 09:47:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Apr-2025 14:52:31 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[12-Apr-2025 14:42:17 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[12-Apr-2025 16:05:35 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[13-Apr-2025 04:06:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[13-Apr-2025 15:15:35 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Apr-2025 14:07:22 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Apr-2025 14:56:24 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Apr-2025 18:29:21 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[17-Apr-2025 01:01:37 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[17-Apr-2025 21:16:23 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[18-Apr-2025 00:39:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[18-Apr-2025 03:22:00 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[18-Apr-2025 03:40:51 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[18-Apr-2025 20:01:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[18-Apr-2025 20:01:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Apr-2025 18:39:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Apr-2025 22:49:34 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Apr-2025 02:53:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Apr-2025 10:58:24 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Apr-2025 08:34:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Apr-2025 10:50:57 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Apr-2025 18:55:20 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-Apr-2025 08:27:27 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 00:55:38 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 03:32:49 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:12 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:14 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:22 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:24 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:26 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:28 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:30 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:31 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:34 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:39 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:39 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Apr-2025 16:52:42 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Apr-2025 05:42:47 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Apr-2025 12:04:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Apr-2025 23:26:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Apr-2025 06:04:56 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Apr-2025 12:23:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[30-Apr-2025 09:02:51 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[01-May-2025 10:14:13 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-May-2025 02:29:01 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-May-2025 07:31:58 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[03-May-2025 02:58:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-May-2025 01:39:39 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-May-2025 11:12:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-May-2025 02:59:53 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-May-2025 17:34:58 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-May-2025 21:42:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-May-2025 06:53:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[08-May-2025 06:01:06 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[08-May-2025 17:24:29 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[08-May-2025 23:40:21 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[09-May-2025 21:02:50 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[10-May-2025 07:07:29 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[10-May-2025 13:17:19 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-May-2025 07:19:19 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[12-May-2025 08:48:27 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[12-May-2025 19:56:45 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[14-May-2025 11:27:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-May-2025 07:29:37 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-May-2025 22:03:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[17-May-2025 08:09:05 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[17-May-2025 09:00:12 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[17-May-2025 19:50:15 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[18-May-2025 18:52:51 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-May-2025 10:10:38 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-May-2025 17:30:00 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-May-2025 21:26:14 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-May-2025 05:00:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-May-2025 06:41:57 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-May-2025 19:33:43 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-May-2025 03:40:31 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-May-2025 05:13:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-May-2025 13:52:10 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-May-2025 08:46:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-May-2025 14:22:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-May-2025 09:16:32 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-May-2025 09:58:27 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-May-2025 10:01:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-May-2025 20:13:57 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-May-2025 22:50:14 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-May-2025 00:19:45 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-May-2025 02:54:15 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-May-2025 13:35:29 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-May-2025 23:08:38 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-May-2025 03:47:51 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-May-2025 04:32:58 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-May-2025 08:24:05 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-May-2025 13:19:46 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-May-2025 19:26:03 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-May-2025 20:14:01 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-May-2025 00:24:20 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-May-2025 08:03:07 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-May-2025 08:53:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-May-2025 11:40:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-May-2025 11:40:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-May-2025 11:40:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-May-2025 11:40:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[30-May-2025 01:53:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[30-May-2025 10:11:18 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[30-May-2025 18:21:47 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[30-May-2025 21:40:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[30-May-2025 22:10:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-May-2025 05:46:57 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-May-2025 08:06:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-May-2025 10:11:07 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[31-May-2025 19:21:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[01-Jun-2025 01:01:25 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[01-Jun-2025 03:08:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[01-Jun-2025 07:03:22 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[01-Jun-2025 16:58:43 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jun-2025 02:35:06 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jun-2025 09:38:33 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jun-2025 12:41:37 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jun-2025 13:11:26 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jun-2025 23:39:53 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[03-Jun-2025 00:31:59 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[03-Jun-2025 09:44:43 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[03-Jun-2025 12:14:46 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[03-Jun-2025 12:26:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-Jun-2025 15:16:30 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-Jun-2025 20:54:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Jun-2025 00:17:24 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Jun-2025 07:36:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Jun-2025 07:36:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Jun-2025 07:36:37 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Jun-2025 12:37:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Jun-2025 18:48:33 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jun-2025 10:19:01 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jun-2025 17:10:06 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jun-2025 17:56:39 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Jun-2025 04:38:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Jun-2025 18:40:08 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[08-Jun-2025 07:37:17 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[09-Jun-2025 11:01:53 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[09-Jun-2025 19:44:59 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[10-Jun-2025 13:54:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jun-2025 12:56:24 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jun-2025 22:55:43 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[12-Jun-2025 10:06:34 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[12-Jun-2025 17:28:29 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[13-Jun-2025 00:07:42 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[13-Jun-2025 04:05:05 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[13-Jun-2025 11:38:22 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[13-Jun-2025 12:38:02 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[14-Jun-2025 10:59:32 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[14-Jun-2025 19:22:32 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[14-Jun-2025 19:39:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[14-Jun-2025 19:39:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[14-Jun-2025 19:39:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[14-Jun-2025 19:39:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Jun-2025 12:27:47 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Jun-2025 22:15:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[16-Jun-2025 11:22:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[17-Jun-2025 20:46:50 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[18-Jun-2025 15:08:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[18-Jun-2025 19:39:00 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[19-Jun-2025 14:06:45 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[20-Jun-2025 11:06:42 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Jun-2025 00:35:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Jun-2025 06:13:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[21-Jun-2025 16:09:45 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jun-2025 02:13:08 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jun-2025 14:33:13 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jun-2025 14:33:13 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jun-2025 14:33:19 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[22-Jun-2025 17:56:27 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-Jun-2025 00:38:57 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-Jun-2025 02:41:13 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-Jun-2025 12:55:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-Jun-2025 15:04:20 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[23-Jun-2025 17:51:43 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jun-2025 00:40:55 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jun-2025 08:36:38 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[24-Jun-2025 13:44:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Jun-2025 08:45:26 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Jun-2025 08:52:44 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[25-Jun-2025 16:35:14 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Jun-2025 01:00:55 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Jun-2025 07:49:10 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Jun-2025 13:03:54 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[26-Jun-2025 15:40:02 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Jun-2025 03:40:48 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Jun-2025 06:14:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[27-Jun-2025 17:15:28 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-Jun-2025 01:42:23 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-Jun-2025 12:33:12 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[28-Jun-2025 14:58:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jun-2025 01:02:31 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jun-2025 07:32:06 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jun-2025 20:23:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jun-2025 22:07:05 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jun-2025 22:07:05 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jun-2025 22:07:05 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[29-Jun-2025 22:07:05 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[30-Jun-2025 03:54:19 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[30-Jun-2025 06:13:06 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[30-Jun-2025 20:07:20 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[30-Jun-2025 22:44:53 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[01-Jul-2025 23:51:30 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 00:56:50 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 14:28:10 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 14:28:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 14:28:15 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 14:28:16 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 14:28:18 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 14:28:21 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 14:28:33 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 14:28:37 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 14:28:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 14:28:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 14:28:51 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 14:28:52 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 16:15:11 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 17:49:04 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[02-Jul-2025 21:05:33 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[03-Jul-2025 01:17:37 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[03-Jul-2025 08:08:10 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[03-Jul-2025 08:28:02 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[03-Jul-2025 22:05:37 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-Jul-2025 10:50:55 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-Jul-2025 12:49:12 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-Jul-2025 20:22:36 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[04-Jul-2025 23:12:39 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Jul-2025 03:42:10 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[05-Jul-2025 07:08:43 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jul-2025 06:52:43 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jul-2025 14:34:31 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[06-Jul-2025 17:41:35 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Jul-2025 03:32:26 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[07-Jul-2025 11:25:09 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[08-Jul-2025 01:08:14 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[08-Jul-2025 05:48:47 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[08-Jul-2025 06:04:59 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[09-Jul-2025 09:06:41 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[09-Jul-2025 11:40:16 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[09-Jul-2025 15:41:29 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[10-Jul-2025 01:24:49 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[10-Jul-2025 11:38:46 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[10-Jul-2025 11:59:18 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[10-Jul-2025 16:00:40 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jul-2025 00:03:35 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jul-2025 03:34:21 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jul-2025 16:48:47 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[11-Jul-2025 18:49:55 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[12-Jul-2025 02:04:35 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[12-Jul-2025 02:44:01 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[13-Jul-2025 02:34:21 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[13-Jul-2025 16:37:20 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[14-Jul-2025 02:29:12 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Jul-2025 14:44:03 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Jul-2025 15:01:13 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Jul-2025 15:02:05 Asia/Kolkata] Query executed successfully: 1 rows affected.
+[15-Jan-2026 00:00:25 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:11:42 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:11:51 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:11:51 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:11:51 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:11:52 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:11:53 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:11:54 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:11:56 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:11:58 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:12:07 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:12:28 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:12:38 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:12:41 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:12:42 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:12:44 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:12:51 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:12:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:13:00 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 17:13:03 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' (using password: YES) in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 23:00:26 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' to database 'nestforyou_root' in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 23:00:34 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' to database 'nestforyou_root' in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 23:00:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' to database 'nestforyou_root' in /home/lbm0yd8awsua/public_html/database/store_data.php:13
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(13): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 13
+[15-Jan-2026 23:06:45 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' to database 'nestforyou_root' in /home/lbm0yd8awsua/public_html/database/store_data.php:23
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(23): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 23
+[15-Jan-2026 23:06:51 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' to database 'nestforyou_root' in /home/lbm0yd8awsua/public_html/database/store_data.php:23
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(23): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 23
+[15-Jan-2026 23:07:15 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'nestforyou_user'@'localhost' to database 'nestforyou_root' in /home/lbm0yd8awsua/public_html/database/store_data.php:23
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(23): mysqli->__construct()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 23
+[16-Jan-2026 10:56:11 Asia/Kolkata] PHP Warning:  Undefined variable $subject in /home/lbm0yd8awsua/public_html/database/store_data.php on line 36
+[16-Jan-2026 10:56:11 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'subject' cannot be null in /home/lbm0yd8awsua/public_html/database/store_data.php:56
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(56): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 56
+[16-Jan-2026 10:56:15 Asia/Kolkata] PHP Warning:  Undefined variable $subject in /home/lbm0yd8awsua/public_html/database/store_data.php on line 36
+[16-Jan-2026 10:56:15 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'subject' cannot be null in /home/lbm0yd8awsua/public_html/database/store_data.php:56
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(56): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 56
+[16-Jan-2026 10:58:06 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 10:58:09 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 10:58:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 10:58:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 10:58:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 10:59:24 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 10:59:24 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 10:59:25 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 10:59:25 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 10:59:26 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 10:59:34 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:01:06 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:01:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:01:13 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:01:38 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:01:46 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:01:47 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:01:48 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:01:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:02:01 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:16:55 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:16:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:18:31 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:18:40 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:20:23 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:20:26 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:29:31 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:32:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[16-Jan-2026 11:34:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:46
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(46): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 46
+[19-Jan-2026 10:51:19 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'sector' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:80
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(80): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 80
+[19-Jan-2026 10:55:13 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'sector' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:59
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(59): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 59
+[19-Jan-2026 10:58:29 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'sector' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:80
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(80): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 80
+[19-Jan-2026 11:06:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'sector' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:58
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(58): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 58
+[19-Jan-2026 11:06:44 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'sector' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:58
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(58): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 58
+[19-Jan-2026 11:24:11 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'sector' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:58
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(58): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 58
+[19-Jan-2026 11:49:58 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'sector' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:72
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(72): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 72
+[19-Jan-2026 11:59:31 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'sector' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:79
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(79): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 79
+[19-Jan-2026 12:00:14 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'sector' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:79
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(79): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 79
+[19-Jan-2026 12:12:49 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'sector' in 'INSERT INTO' in /home/lbm0yd8awsua/public_html/database/store_data.php:75
+Stack trace:
+#0 /home/lbm0yd8awsua/public_html/database/store_data.php(75): mysqli->prepare()
+#1 {main}
+  thrown in /home/lbm0yd8awsua/public_html/database/store_data.php on line 75
