@@ -16,7 +16,7 @@ jobs:
       - name: Set up SSH key
         uses: webfactory/ssh-agent@v0.5.3
         with:
-          ssh-private-key: ${{ secrets.ssh_private_key }}  # Use the SSH private key you added to GitHub secrets
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}  # Use the SSH private key you added to GitHub secrets
 
       - name: Deploy to cPanel
         run: |
