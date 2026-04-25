@@ -2,7 +2,7 @@
 // index.php  ✅ Register submit works + ✅ Apartment selected shows "Sorry, we have no agent in X" (no redirect)
 
 // ==============================
-// Base URL + Canonical (clean)
+// Base URL + Canonical (clean) Code
 // ==============================
 $base_url = "https://nestforyou.in";
 $path = strtok($_SERVER["REQUEST_URI"], '?');
