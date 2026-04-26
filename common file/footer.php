@@ -61,7 +61,7 @@
             </li>
              <li>
               <i class="bi bi-chevron-right"></i>
-              <a href="https://nestforyou.in/sell/gurgaon/index.php">Blogs</a>
+              <a href="https://nestforyou.in/buy/gurgaon/index.php">Blogs</a>
             </li>
           </ul>
         </div>
