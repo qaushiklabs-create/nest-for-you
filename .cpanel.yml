@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/lbm0yd8awsua/public_html/
+    - /bin/cp -R about assets blogs buy common\ file contact database error forms gurgaon leads legaldocument privacy real-estate register-agent sell service terms .well-known *.php *.html .htaccess $DEPLOYPATH
