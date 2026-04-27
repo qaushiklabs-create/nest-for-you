@@ -59,10 +59,6 @@
               <i class="bi bi-chevron-right"></i>
               <a href="https://nestforyou.in/sell/gurgaon/index.php">Sell</a>
             </li>
-             <li>
-              <i class="bi bi-chevron-right"></i>
-              <a href="https://nestforyou.in/real-estate/rent/gurgaon/index.php">Blogs</a>
-            </li>
           </ul>
         </div>
 
